@@ -1,0 +1,78 @@
+body {
+  height: 100dvh;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #821717;
+  background: linear-gradient(
+    175deg,
+    rgb(11, 7, 20) 0%,
+    rgba(130, 23, 23, 1) 40%,
+    rgb(150, 71, 57) 65%,
+    rgb(192, 105, 77) 80%,
+    rgb(248, 187, 107) 100%
+  );
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+
+form {
+  text-align: center;
+}
+
+.Tbox {
+  text-align: center;
+}
+
+#numHint1 {
+  white-space: pre-line;
+  font-size: 1.3em;
+}
+
+#answerBox {
+  white-space: pre-line;
+  height: 2em;
+  margin-bottom: 2em;
+}
+
+#pInput {
+  width: 30%;
+  font-size: large;
+  text-align: center;
+  max-width: 14.5em;
+  border-radius: 10px;
+}
+
+#unlockBtn {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 2.5em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1.2em;
+}
+
+#startBtn {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 1.2em;
+}
+
+#answerBox {
+  font-size: 1.2em;
+}
+
+#moonImg {
+    position: absolute;
+    bottom: 85%;
+    right: 88%;
+    opacity: 0.65;
+}

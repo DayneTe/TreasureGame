@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="Tbox">
+      <p id="numFinal"></p>
+      <h1>Treasure Casket</h1>
+      <img src="tbox.png"/>
+    </div>
+
+    <form>
+        <p id="answerBox">Hmm...</p>
+      <input
+        type="number"
+        min="0"
+        max="99"
+        required
+        name="Number"
+        id="pInput"
+      />
+      <br />
+      <br />
+      <input id="unlockBtn" type="button" value="Unlock" onclick="checkAnswer()" />
+      <br />
+      <input id="startBtn" type="button" value="Restart" onclick="StartFunc()" />
+    </form>
+
+    <div class="Tbox">
+      <p id="numHint1">blah blah</p>
+    </div>
+
+    <img id="moonImg" width="180px" src="moon.png"/>
+
+    <script src="script.js"></script>
+  </body>
+</html>
