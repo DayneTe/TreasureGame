@@ -64,7 +64,7 @@ function checkAnswer() {
         numHint1.textContent += hints[ran];
         hints.splice(ran, 1);
       }
-      numFinal.textContent = `Random Number is ${treasureNum}.  Attempts are ${attempts}.`;
+      numFinal.textContent = `Attempts are ${attempts}.`;
     }
   }
 }
