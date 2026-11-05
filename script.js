@@ -8,7 +8,7 @@ function StartFunc() {
   attempts = 5;
   numHint1.textContent = "";
   answerBox.textContent = "Hmm...";
-  numFinal.textContent = `Random Number is ${treasureNum}.  Attempts are ${attempts}.`;
+  numFinal.textContent = `Attempts are ${attempts}.`;
 
   createHints();
 }
